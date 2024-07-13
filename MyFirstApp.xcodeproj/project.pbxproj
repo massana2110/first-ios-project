@@ -16,6 +16,11 @@
 		CD9E70142C409317001DC5A7 /* ImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E70132C409317001DC5A7 /* ImageExample.swift */; };
 		CD9E70162C409A9F001DC5A7 /* LabelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E70152C409A9F001DC5A7 /* LabelExample.swift */; };
 		CD9E70182C409BCA001DC5A7 /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E70172C409BCA001DC5A7 /* ButtonExample.swift */; };
+		CDB552852C41F0D500105C44 /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB552842C41F0D500105C44 /* TextFieldExample.swift */; };
+		CDB552872C41F2FB00105C44 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB552862C41F2FB00105C44 /* MenuView.swift */; };
+		CDB5528A2C41F55300105C44 /* IMCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB552892C41F55300105C44 /* IMCView.swift */; };
+		CDB5528C2C42E66700105C44 /* IMCResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5528B2C42E66700105C44 /* IMCResultView.swift */; };
+		CDB5528E2C42F54600105C44 /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5528D2C42F54600105C44 /* ListExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		CD9E70132C409317001DC5A7 /* ImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExample.swift; sourceTree = "<group>"; };
 		CD9E70152C409A9F001DC5A7 /* LabelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExample.swift; sourceTree = "<group>"; };
 		CD9E70172C409BCA001DC5A7 /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
+		CDB552842C41F0D500105C44 /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
+		CDB552862C41F2FB00105C44 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		CDB552892C41F55300105C44 /* IMCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCView.swift; sourceTree = "<group>"; };
+		CDB5528B2C42E66700105C44 /* IMCResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCResultView.swift; sourceTree = "<group>"; };
+		CDB5528D2C42F54600105C44 /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +71,12 @@
 		CD9E6FFE2C4082B3001DC5A7 /* MyFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				CDB552882C41F54000105C44 /* IMC */,
 				CD9E70102C40909C001DC5A7 /* Components */,
 				CD9E700D2C408FDD001DC5A7 /* Exercises */,
 				CD9E6FFF2C4082B3001DC5A7 /* MyFirstAppApp.swift */,
 				CD9E70012C4082B3001DC5A7 /* ContentView.swift */,
+				CDB552862C41F2FB00105C44 /* MenuView.swift */,
 				CD9E70032C4082B4001DC5A7 /* Assets.xcassets */,
 				CD9E70052C4082B4001DC5A7 /* Preview Content */,
 			);
@@ -94,8 +106,19 @@
 				CD9E70132C409317001DC5A7 /* ImageExample.swift */,
 				CD9E70152C409A9F001DC5A7 /* LabelExample.swift */,
 				CD9E70172C409BCA001DC5A7 /* ButtonExample.swift */,
+				CDB552842C41F0D500105C44 /* TextFieldExample.swift */,
+				CDB5528D2C42F54600105C44 /* ListExample.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		CDB552882C41F54000105C44 /* IMC */ = {
+			isa = PBXGroup;
+			children = (
+				CDB552892C41F55300105C44 /* IMCView.swift */,
+				CDB5528B2C42E66700105C44 /* IMCResultView.swift */,
+			);
+			path = IMC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,10 +193,15 @@
 			files = (
 				CD9E70022C4082B3001DC5A7 /* ContentView.swift in Sources */,
 				CD9E70182C409BCA001DC5A7 /* ButtonExample.swift in Sources */,
+				CDB5528C2C42E66700105C44 /* IMCResultView.swift in Sources */,
 				CD9E70162C409A9F001DC5A7 /* LabelExample.swift in Sources */,
+				CDB5528E2C42F54600105C44 /* ListExample.swift in Sources */,
 				CD9E70122C4090EE001DC5A7 /* TextExample.swift in Sources */,
+				CDB552872C41F2FB00105C44 /* MenuView.swift in Sources */,
 				CD9E70002C4082B3001DC5A7 /* MyFirstAppApp.swift in Sources */,
 				CD9E70142C409317001DC5A7 /* ImageExample.swift in Sources */,
+				CDB552852C41F0D500105C44 /* TextFieldExample.swift in Sources */,
+				CDB5528A2C41F55300105C44 /* IMCView.swift in Sources */,
 				CD9E700F2C409009001DC5A7 /* Exercise1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
